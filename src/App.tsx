@@ -982,7 +982,7 @@ function App() {
                         element.scrollIntoView({ behavior: "smooth" });
                     }}
                   >
-                    <ButtonCTAText>Launch app</ButtonCTAText>
+                    <ButtonCTAText>Join Communities</ButtonCTAText>
                   </ButtonCTA>
                 </motion.div>
               </ActionsContainer>
