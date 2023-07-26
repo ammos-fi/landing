@@ -38,7 +38,7 @@ export const PageTabs = () => {
   return (
     <>
       <LinkWrapper
-        href={"https://ammos.gitbook.io/ammos-docs/"}
+        href={"https://docs.ammos.fi/ammos-docs/"}
         target="_blank"
         rel="noopener noreferrer"
       >

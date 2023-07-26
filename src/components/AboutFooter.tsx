@@ -1,6 +1,7 @@
 import styled from "styled-components/macro";
 
 import { DiscordIcon, GithubIcon, TelegramIcon, TwitterIcon } from "./Icons";
+import {links} from "../App";
 const BREAKPOINTS = {
   xs: 396,
   sm: 640,
@@ -1209,14 +1210,6 @@ const Copyright = styled.span`
   margin: 1rem 0 0 0;
   color: ${({ theme }) => theme.textTertiary};
 `;
-
-const links = {
-  discord: "https://discord.com/invite/ammosfinance",
-  twitter: "https://twitter.com/ammosfinance",
-  github: "https://github.com/ammos-fi",
-  telegram: "https://t.me/AmmosFinance",
-  docs: "https://ammos.gitbook.io/ammos-docs/",
-};
 
 const LogoSectionContent = () => {
   const LogoSectionBottomWrapper = styled.div`

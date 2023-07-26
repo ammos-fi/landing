@@ -8,12 +8,12 @@ import React from "react";
 import { AboutFooter } from "./components/AboutFooter";
 import NavBar from "./components/NavBar";
 
-const links = {
+export const links = {
   discord: "https://discord.com/invite/ammosfinance",
   twitter: "https://twitter.com/ammosfinance",
   github: "https://github.com/ammos-fi",
   telegram: "https://t.me/+WyM-ByYc51ZhYjg8",
-  docs: "https://ammos.gitbook.io/ammos-docs/",
+  docs: "https://docs.ammos.fi/ammos-docs/",
 };
 
 enum Z_INDEX {
