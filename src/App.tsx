@@ -8,6 +8,14 @@ import React from "react";
 import { AboutFooter } from "./components/AboutFooter";
 import NavBar from "./components/NavBar";
 
+const links = {
+  discord: "https://discord.com/invite/ammosfinance",
+  twitter: "https://twitter.com/ammosfinance",
+  github: "https://github.com/ammos-fi",
+  telegram: "https://t.me/+WyM-ByYc51ZhYjg8",
+  docs: "https://ammos.gitbook.io/ammos-docs/",
+};
+
 enum Z_INDEX {
   deprecated_zero = 0,
   under_dropdown = 990,
@@ -30,14 +38,6 @@ const BREAKPOINTS = {
   xl: 1280,
   xxl: 1536,
   xxxl: 1920,
-};
-
-const links = {
-  discord: "https://discord.com/invite/ammosfinance",
-  twitter: "https://twitter.com/ammosfinance",
-  github: "https://github.com/ammos-fi",
-  telegram: "https://t.me/AmmosFinance",
-  docs: "https://ammos.gitbook.io/ammos-docs/",
 };
 
 type BaseButtonProps = {
