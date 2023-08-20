@@ -9,7 +9,7 @@ import { AboutFooter } from "./components/AboutFooter";
 import NavBar from "./components/NavBar";
 
 export const links = {
-  discord: "https://discord.com/invite/ammosfinance",
+  discord: "https://discord.gg/Abpu6m69q8",
   twitter: "https://twitter.com/ammosfinance",
   github: "https://github.com/ammos-fi",
   telegram: "https://t.me/+WyM-ByYc51ZhYjg8",
